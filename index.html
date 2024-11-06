@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home | Ithaca Zoo</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles/site.css">
+</head>
+
+<body>
+  <main>
+    <h1>Pre-Order Tickets for Express Pick-up</h1>
+
+    <!-- Note: All of this code is correct. You shouldn't need to change anything in this file to complete this lab. -->
+    <form id="preorder-form">
+
+      <p id="feedback-email" class="preorder-feedback hidden">∗ Please provide your email.</p>
+      <div class="labelComponentPair">
+        <label for="preorder-email">Email: </label>
+        <input type="email" id="preorder-email" name="preorder-email" required>
+      </div>
+
+      <p id="feedback-tickets" class="preorder-feedback hidden">∗ Please order 1 or more tickets.</p>
+      <div class="labelComponentPair">
+        <label for="preorder-tickets">Number of Tickets: </label>
+        <input type="number" id="preorder-tickets" name="preorder-tickets" value="0" min="1" required>
+      </div>
+
+      <button id="preorder-button">Pre-Order</button>
+    </form>
+  </main>
+
+</body>
+
+</html>
