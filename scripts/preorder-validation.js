@@ -1,2 +1,4 @@
-// TODO: copy pseudocode and comment it out
-// TODO: replace pseudocode with interactivity snippets
+$("#preorder-form").on("click", function () {
+  $("#feedback-email").removeClass("hidden");
+  $("#feedback-tickets").removeClass("hidden");
+});
